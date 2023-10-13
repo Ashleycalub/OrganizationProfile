@@ -28,33 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label2 = new Label();
             label1 = new Label();
             label8 = new Label();
             label4 = new Label();
             label5 = new Label();
             label9 = new Label();
             label10 = new Label();
-            studentno = new Label();
-            name = new Label();
-            program = new Label();
-            gender = new Label();
-            birthday = new Label();
-            age = new Label();
-            contactno = new Label();
+            lblStudentNo = new Label();
+            lblName = new Label();
+            lblProgram = new Label();
+            lblGender = new Label();
+            lblBirthday = new Label();
+            lblAge = new Label();
+            lblContactNo = new Label();
             frmRegistration = new Button();
+            label2 = new Label();
             SuspendLayout();
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(23, 32);
-            label2.Name = "label2";
-            label2.RightToLeft = RightToLeft.No;
-            label2.Size = new Size(104, 21);
-            label2.TabIndex = 43;
-            label2.Text = "Student No.:";
             // 
             // label1
             // 
@@ -122,75 +111,75 @@
             label10.TabIndex = 59;
             label10.Text = "Contact No:";
             // 
-            // studentno
+            // lblStudentNo
             // 
-            studentno.AutoSize = true;
-            studentno.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            studentno.Location = new Point(133, 32);
-            studentno.Name = "studentno";
-            studentno.RightToLeft = RightToLeft.No;
-            studentno.Size = new Size(0, 21);
-            studentno.TabIndex = 60;
+            lblStudentNo.AutoSize = true;
+            lblStudentNo.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblStudentNo.Location = new Point(133, 32);
+            lblStudentNo.Name = "lblStudentNo";
+            lblStudentNo.RightToLeft = RightToLeft.No;
+            lblStudentNo.Size = new Size(0, 21);
+            lblStudentNo.TabIndex = 60;
             // 
-            // name
+            // lblName
             // 
-            name.AutoSize = true;
-            name.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            name.Location = new Point(133, 73);
-            name.Name = "name";
-            name.RightToLeft = RightToLeft.No;
-            name.Size = new Size(0, 21);
-            name.TabIndex = 61;
+            lblName.AutoSize = true;
+            lblName.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblName.Location = new Point(133, 73);
+            lblName.Name = "lblName";
+            lblName.RightToLeft = RightToLeft.No;
+            lblName.Size = new Size(0, 21);
+            lblName.TabIndex = 61;
             // 
-            // program
+            // lblProgram
             // 
-            program.AutoSize = true;
-            program.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            program.Location = new Point(133, 114);
-            program.Name = "program";
-            program.RightToLeft = RightToLeft.No;
-            program.Size = new Size(0, 21);
-            program.TabIndex = 62;
+            lblProgram.AutoSize = true;
+            lblProgram.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblProgram.Location = new Point(133, 114);
+            lblProgram.Name = "lblProgram";
+            lblProgram.RightToLeft = RightToLeft.No;
+            lblProgram.Size = new Size(0, 21);
+            lblProgram.TabIndex = 62;
             // 
-            // gender
+            // lblGender
             // 
-            gender.AutoSize = true;
-            gender.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            gender.Location = new Point(133, 242);
-            gender.Name = "gender";
-            gender.RightToLeft = RightToLeft.No;
-            gender.Size = new Size(0, 21);
-            gender.TabIndex = 65;
+            lblGender.AutoSize = true;
+            lblGender.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblGender.Location = new Point(133, 242);
+            lblGender.Name = "lblGender";
+            lblGender.RightToLeft = RightToLeft.No;
+            lblGender.Size = new Size(0, 21);
+            lblGender.TabIndex = 65;
             // 
-            // birthday
+            // lblBirthday
             // 
-            birthday.AutoSize = true;
-            birthday.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            birthday.Location = new Point(133, 199);
-            birthday.Name = "birthday";
-            birthday.RightToLeft = RightToLeft.No;
-            birthday.Size = new Size(0, 21);
-            birthday.TabIndex = 64;
+            lblBirthday.AutoSize = true;
+            lblBirthday.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblBirthday.Location = new Point(133, 199);
+            lblBirthday.Name = "lblBirthday";
+            lblBirthday.RightToLeft = RightToLeft.No;
+            lblBirthday.Size = new Size(0, 21);
+            lblBirthday.TabIndex = 64;
             // 
-            // age
+            // lblAge
             // 
-            age.AutoSize = true;
-            age.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            age.Location = new Point(133, 157);
-            age.Name = "age";
-            age.RightToLeft = RightToLeft.No;
-            age.Size = new Size(0, 21);
-            age.TabIndex = 63;
+            lblAge.AutoSize = true;
+            lblAge.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblAge.Location = new Point(133, 157);
+            lblAge.Name = "lblAge";
+            lblAge.RightToLeft = RightToLeft.No;
+            lblAge.Size = new Size(0, 21);
+            lblAge.TabIndex = 63;
             // 
-            // contactno
+            // lblContactNo
             // 
-            contactno.AutoSize = true;
-            contactno.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            contactno.Location = new Point(133, 282);
-            contactno.Name = "contactno";
-            contactno.RightToLeft = RightToLeft.No;
-            contactno.Size = new Size(0, 21);
-            contactno.TabIndex = 66;
+            lblContactNo.AutoSize = true;
+            lblContactNo.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblContactNo.Location = new Point(133, 282);
+            lblContactNo.Name = "lblContactNo";
+            lblContactNo.RightToLeft = RightToLeft.No;
+            lblContactNo.Size = new Size(0, 21);
+            lblContactNo.TabIndex = 66;
             // 
             // frmRegistration
             // 
@@ -204,6 +193,17 @@
             frmRegistration.Text = "Submit";
             frmRegistration.UseVisualStyleBackColor = false;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Times New Roman", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(23, 32);
+            label2.Name = "label2";
+            label2.RightToLeft = RightToLeft.No;
+            label2.Size = new Size(104, 21);
+            label2.TabIndex = 43;
+            label2.Text = "Student No.:";
+            // 
             // frmConfirmation
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -211,13 +211,13 @@
             BackColor = SystemColors.Info;
             ClientSize = new Size(373, 385);
             Controls.Add(frmRegistration);
-            Controls.Add(contactno);
-            Controls.Add(gender);
-            Controls.Add(birthday);
-            Controls.Add(age);
-            Controls.Add(program);
-            Controls.Add(name);
-            Controls.Add(studentno);
+            Controls.Add(lblContactNo);
+            Controls.Add(lblGender);
+            Controls.Add(lblBirthday);
+            Controls.Add(lblAge);
+            Controls.Add(lblProgram);
+            Controls.Add(lblName);
+            Controls.Add(lblStudentNo);
             Controls.Add(label10);
             Controls.Add(label9);
             Controls.Add(label5);
@@ -232,21 +232,20 @@
         }
 
         #endregion
-
-        private Label label2;
         private Label label1;
         private Label label8;
         private Label label4;
         private Label label5;
         private Label label9;
         private Label label10;
-        private Label studentno;
-        private Label name;
-        private Label program;
-        private Label gender;
-        private Label birthday;
-        private Label age;
-        private Label contactno;
+        private Label lblStudentNo;
+        private Label lblName;
+        private Label lblProgram;
+        private Label lblGender;
+        private Label lblBirthday;
+        private Label lblAge;
+        private Label lblContactNo;
         private Button frmRegistration;
+        private Label label2;
     }
 }
