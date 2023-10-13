@@ -22,13 +22,17 @@ namespace OrganizationProfile
         {
             StudentInformationClass studInfo = new StudentInformationClass();
             studInfo.SetFullName = FullName(txtLastName.Text, txtFirstName.Text, txtMiddleInitial.Text);
-
+            studInfo.SetStudentNo = StudentNumber (txtStudentNo.Text);
+            studInfo.SetProgram = cbProgram.Text;
+            studInfo.SetGender = cbGender.Text; 
+            studInfo.SetContactNo = ContactNo(txtContactNo.Text);
+           
             
         }
 
         private void frmRegistration_Load(object sender, EventArgs e)
         {
-            /*string[] ListOfProgram = new string[]
+            string[] ListOfProgram = new string[]
             {
                 "BS Information Technology",
                 "BS Computer Science",
@@ -36,12 +40,12 @@ namespace OrganizationProfile
                 "BS in Accoutancy",
                 "BS in Hospitality Management",
                 "BS in Tourism Management"
-            }
+            };
             for (int i = 0; i < 6; i++)
             {
                 cbProgram.Items.Add(ListOfProgram[i].ToString());
             }
-       */ }
+        }
 
         public long StudentNumber(string studNum)
         {
